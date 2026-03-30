@@ -4,6 +4,7 @@ import * as accentPurple from './accent/purple';
 import * as accentBlue from './accent/blue';
 import * as accentRed from './accent/red';
 import * as accentRainbow from './accent/rainbow';
+import * as accentArkide from './accent/arkide';
 
 import * as guiLight from './gui/light';
 import * as guiDark from './gui/dark';
@@ -15,14 +16,16 @@ import * as blocksDark from './blocks/dark';
 const ACCENT_PURPLE = 'purple';
 const ACCENT_BLUE = 'blue';
 const ACCENT_RED = 'red';
+const ACCENT_ARKIDE = 'arkide';
 const ACCENT_RAINBOW = 'rainbow';
 const ACCENT_MAP = {
     [ACCENT_PURPLE]: accentPurple,
     [ACCENT_BLUE]: accentBlue,
     [ACCENT_RED]: accentRed,
+    [ACCENT_ARKIDE]: accentArkide,
     [ACCENT_RAINBOW]: accentRainbow
 };
-const ACCENT_DEFAULT = ACCENT_RED;
+const ACCENT_DEFAULT = ACCENT_ARKIDE;
 
 const GUI_LIGHT = 'light';
 const GUI_DARK = 'dark';
@@ -150,6 +153,7 @@ export {
     ACCENT_PURPLE,
     ACCENT_BLUE,
     ACCENT_RAINBOW,
+    ACCENT_ARKIDE,
     ACCENT_MAP,
 
     GUI_LIGHT,
